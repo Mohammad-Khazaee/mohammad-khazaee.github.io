@@ -30,9 +30,11 @@ layout: util/compress
   <head>
     {% include default/header/header.html %}
     {% include default/css-include.html %}
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+
   </head>
 
-  <body {{ default_dark }}>
+  <body {{ default_dark }} class="font-family: Vazirmatn, sans-serif;">
     {% if color_scheme_enabled -%}
       <script src="{{ site.baseurl }}/assets/js/color-scheme-attr-init.js" data-mode="{{ site.data.conf.main.color_scheme_default_dark }}"></script>
     {%- endif %}
