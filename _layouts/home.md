@@ -40,7 +40,7 @@ layout: default
 </div>
 
 {%- if lng_pages.size > 0 and site.data.conf.others.home.new_posts %}
-<div class="multipurpose-container new-posts-container">
+<div class="multipurpose-container new-posts-container" {% if lng == 'fa' -%}dir="rtl"{%- endif %}>
   <h1>{{ site.data.lang[lng].home.new_posts_title }}</h1>
   <ul class="new-posts">
   {%- for _post in lng_pages limit: site.data.conf.others.home.new_posts_count_limit -%}
