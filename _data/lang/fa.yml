@@ -99,7 +99,7 @@ post:
       move: Drag to move
       close: Close
   share:
-    heading: به اشتراک بگزارید در
+    heading: به اشتراک بگزارید 
     link_copied: Link copied!
     tooltip:
       # keys need to match with _data/share.yml
@@ -143,9 +143,9 @@ home:
 
 # for archives layout
 archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
+  title: بایگانی
+  button_name: بایگانی
+  page_header: بایگانی
 
 # for about layout
 about:
