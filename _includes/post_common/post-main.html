@@ -11,6 +11,7 @@
   {%- include post_common/post-info-html.html date=post_date read_time=read_time url=post_url comment_style = comment_style -%}
   <hr/>
   <div class="markdown-style">
+    {{ lng_code }}
     {{ include.post.content }}
     {%- if site.data.conf.posts.share_buttons == true %}
       {%- include post_common/share.html title = page_title url = include.post.url -%}
