@@ -12,8 +12,8 @@ lng:
   country: IR
   switch_title: Fa
   offer:
-    title: Language
-    msg_page: View this page in English.
+    title: زبان
+    msg_page: این سایت را به فارسی ببینید.
     # if page translation is not available, use this.
     msg_site: To home
 
@@ -26,25 +26,25 @@ date:
   months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
 
 not_found:
-  header: Page not found
-  line1: The page you requested could not be found.
-  line2: Try menu, or site search if available.
+  header: صفحه پیدا نشد
+  line1: صفحه ای که شما درخواست دادید پیدا نشد.
+  line2: میتوانید از منو قسمت مورد نظر خود را پیدا کنید.
 
-no_translation_tooltip: No Translation
+no_translation_tooltip: ترجمه وجود ندارد
 
 navigation:
-  contact_header: Contact
-  side_navigation_button: Side menu
-  scroll_back_to_top: Back to top
+  contact_header: ارتباط
+  side_navigation_button: منو سایت
+  scroll_back_to_top: برگشت به بالا
 
 color_scheme_switch_tooltip: Color scheme
 
 search:
-  placeholder: Search
-  noResultText: No results were found.
+  placeholder: جستوجو
+  noResultText: هیچ نتیجه ای پیدا نشد.
 
 image_viewer:
-  load_error: The image could not be loaded.
+  load_error: تصویر نمیتواند لود شود.
 
 copyright:
   additional_text: " All rights reserved."
@@ -66,24 +66,24 @@ not-found:
 # for post layout
 post:
   read_time:
-    unit: " min"
-    text: " read"
+    unit: " دقیقه"
+    text: " خواندن"
     # c for char w for word
     word_char: w
     # char or words per minute
     per_minute: 200
   pager_buttons:
-    older_post: "← Older Post"
-    newer_post: "Newer Post →"
-    first_post: First
-    last_post: Last
+    older_post: "← پست قبلی"
+    newer_post: "پست جدید →"
+    first_post: اول
+    last_post: آخر
   comments:
     noscript: Please enable JavaScript to view the Comments.
     disqus:
-      count_title: Comments
-      click_to_load: "Load comments"
+      count_title: کامنت ها
+      click_to_load: "درحال لود کردن کامنت ها"
       consent:
-        title: Comments (Disqus.com)
+        title: کامنت ها (Disqus.com)
         text: >
           Comment feature is hosted by a third party. By showing the external content you accept the $terms and $privacy_policy of disqus.com.
           <br>If you prefer to opt out of targeted advertising, open $settings_link and click "opt-out" button and close. Return here and load comments.
@@ -99,7 +99,7 @@ post:
       move: Drag to move
       close: Close
   share:
-    heading: Share on
+    heading: به اشتراک بگزارید در
     link_copied: Link copied!
     tooltip:
       # keys need to match with _data/share.yml
@@ -112,34 +112,34 @@ post:
 
 # for post-list layout
 post-list:
-  title: Blog
-  button_name: Blog
+  title: وبلاگ
+  button_name: وبلاگ
   upside_down_tabs:
     tab:
-      all: All
-      categories: Categories
+      all: همه
+      categories: گروه ها
       tags: Tags
-      years: Years
+      years: سال
       clear: Clear
-      close: Close
+      close: بستن
       tooltip:
         clear: Clear
-        close: Close
+        close: بستن
     msg:
       property_list:
         # keys need to match with /query/post-query.json
         tags: Tag
-        category: Category
-        year: Year
+        category: گروه
+        year: سال
       # you can use these wildcards, {property} {value} {thumb}
       resultFoundTitleFormat: "{property} : {thumb}"
 
 # for home layout
 home:
-  title: Welcome
-  button_name: Home
-  new_posts_title: New Articles
-  new_posts_show_more_button: View More ...
+  title: 
+  button_name: خانه
+  new_posts_title: پست جدید
+  new_posts_show_more_button: بیشتر ببینید ...
 
 # for archives layout
 archives:
@@ -149,23 +149,23 @@ archives:
 
 # for about layout
 about:
-  title: About
-  button_name: About
-  email_title: email
+  title: درباره
+  button_name: درباره
+  email_title: ایمیل
 
 # for links layout
 links:
-  title: Links
-  button_name: Links
-  link_text: Web site
-  info_text: Info
+  title: لینک
+  button_name: لینک
+  link_text: وبسایت
+  info_text: اطلاعات
 
 # for projects layout
 projects:
-  title: Projects
-  button_name: Projects
-  read_more_text: Read more
-  read_less_text: Read less
+  title: پروژه ها
+  button_name: پروژه ها
+  read_more_text: بیشتر بخوانید
+  read_less_text: کمتر بخوانید
 
 # for privacy-policy layout
 privacy-policy:
@@ -173,13 +173,13 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Hello
-  welcome: Welcome
-  sample: Sample
+  greetings: سلام
+  welcome: خوش آمدید
+  sample: نمونه
 
 # for contact form
 contact_form:
-  button_name: Contact Form
+  button_name: فرم ارتباط
   formLoadingText: Loading the Contact Form...
 
 # for cookie consent
