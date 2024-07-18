@@ -30,7 +30,6 @@ layout: util/compress
   <head>
     {% include default/header/header.html %}
     {% include default/css-include.html %}
-    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
 
   </head>
 
