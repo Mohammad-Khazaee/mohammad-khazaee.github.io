@@ -43,7 +43,7 @@ layout: default
   <div class="row about-divider">
     <hr>
   </div>
-  <div class="row">
+  <div class="row" {% if lng == 'fa' -%}dir="rtl"{%- endif %}>
     <div class="col-md-12">
       <div class="about-msg markdown-style">
         {{ content }}
