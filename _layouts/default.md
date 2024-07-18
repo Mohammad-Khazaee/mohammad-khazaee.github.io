@@ -26,7 +26,7 @@ layout: util/compress
 {%- include multi_lng/get-lng-code.liquid lng = lng -%}
 
 <!DOCTYPE html>
-<html lang="{{ lng_code }}" dir="{% if lng_code == 'fa' -%}rtl{%- endif %}">
+<html lang="{{ lng_code }}" dir="{% if lng_code == 'fa-IR' -%}rtl{%- endif %}">
   <head>
     {% include default/header/header.html %}
     {% include default/css-include.html %}
