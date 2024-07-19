@@ -33,7 +33,7 @@ layout: util/compress
 
   </head>
 
-  <body {{ default_dark }} class="font-family: Vazirmatn, sans-serif;">
+  <body {{ default_dark }} class="font-family: Vazirmatn;">
     {% if color_scheme_enabled -%}
       <script src="{{ site.baseurl }}/assets/js/color-scheme-attr-init.js" data-mode="{{ site.data.conf.main.color_scheme_default_dark }}"></script>
     {%- endif %}
