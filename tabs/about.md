@@ -39,8 +39,14 @@ img: ":about.webp"
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
 Hello! I am Mohammad Khazaei, an electrical engineering student from Ferdowsi University of Mashhad...
+
+
+
 My purpose of starting this blog is to share knowledge and experiences in various fields of electrical engineering and programming. Here you can find educational articles, practical tips and personal experiences. I hope to cooperate and exchange ideas with you, Duniya 
 Improve technology and engineering.
+
+
+
 It is valuable to contact you, if you have a question or want to discuss a specific case topic, I will be happy to help you.
 {{ website_info_text_first }}
 
