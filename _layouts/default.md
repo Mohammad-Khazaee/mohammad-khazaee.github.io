@@ -33,7 +33,7 @@ layout: util/compress
 
   </head>
 
-  <body {{ default_dark }} class="font-family: 'Vazirmatn', Arial, sans-serif;
+  <body {{ default_dark }} style="font-family: 'Vazirmatn', Arial, sans-serif;
 font-weight:normal;">
     {% if color_scheme_enabled -%}
       <script src="{{ site.baseurl }}/assets/js/color-scheme-attr-init.js" data-mode="{{ site.data.conf.main.color_scheme_default_dark }}"></script>
@@ -43,7 +43,7 @@ font-weight:normal;">
     {% if site.data.conf.posts.post_table_of_contents and page.layout == "post"-%}
       {%- include post/table-of-contents.html -%}
     {%- endif -%}
-    <div id="main-wrapper" class="font-family: 'Vazirmatn', Arial, sans-serif;
+    <div id="main-wrapper" style="font-family: 'Vazirmatn', Arial, sans-serif;
 font-weight:normal;">
       <div class="main-container">
         {%- assign returned_content = content %}
