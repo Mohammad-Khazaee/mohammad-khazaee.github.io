@@ -41,7 +41,7 @@ Hello! I am Mohammad Khazaei, an electrical engineering student from Ferdowsi Un
 
 
 
-My purpose of starting this blog is to share knowledge and experiences in various fields of electrical engineering and programming. Here you can find educational articles, practical tips and personal experiences. I hope to cooperate and exchange ideas with you, Duniya 
+My purpose of starting this blog is to share knowledge and experiences in various fields of electrical engineering and programming. Here you can find educational articles, practical tips and personal experiences. I hope to cooperate and exchange ideas with you, 
 Improve technology and engineering.
 
 
