@@ -7,7 +7,7 @@ layout: default
 ---
 {%- include multi_lng/get-lng-by-url.liquid -%}
 {%- assign lng = get_lng -%}
-<div class="multipurpose-container" id="notfound">
+<div class="multipurpose-container" id="notfound"  {% if lng == 'fa' -%}dir="rtl"{%- endif %}>
   <h1>{{ site.data.lang[lng].not_found.header }}</h1>
   <br>
   <p class="line1">{{ site.data.lang[lng].not_found.line1 }}</p>
