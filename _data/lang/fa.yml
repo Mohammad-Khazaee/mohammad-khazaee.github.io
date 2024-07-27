@@ -136,7 +136,7 @@ post-list:
 
 # for home layout
 home:
-  title: 
+  title: وبلاگ محمد خزائی
   button_name: خانه
   new_posts_title: پست جدید
   new_posts_show_more_button: بیشتر ببینید ...
